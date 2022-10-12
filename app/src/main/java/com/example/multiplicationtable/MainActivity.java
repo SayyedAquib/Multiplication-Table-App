@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                Toast.makeText(MainActivity.this, "Populating table of " + progress, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Populating_table_of_" + progress, Toast.LENGTH_SHORT).show();
                 populate(progress);
             }
 
